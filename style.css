@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow: hidden;
+  background: #121212;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff0000;
+  clip-path: circle(50% at bottom right);
+}
+
+.logo {
+  margin: 20px 40px;
+  height: 45px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navegacao {
+  display: grid;
+  align-content: center;
+}
+
+header .navegacao ul {
+  display: flex;
+  gap: 100px;
+  margin-right: 50px;
+}
+
+.navegacao a {
+  text-decoration: none;
+  font-size: 0.875rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.container {
+  width: 600px;
+  display: grid;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.container .text h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: 6px;
+  font-weight: 600;
+}
+
+.text h2 span {
+  color: #ff0000;
+  font-size: 8rem;
+  line-height: 7rem;
+}
+
+.text p {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.text a {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 0.8rem;
+  margin-top: 25px;
+  font-weight: 600;
+  background: #ff0000;
+  padding: 10px 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.text a:hover {
+  transform: translateY(-10px);
+}
+
+.icon {
+  display: flex;
+  bottom: 40px;
+  left: 100px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+.icon li {
+  list-style: none;
+}
+.icon a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+  background-color: #222;
+}
+
+.icon li a:hover {
+  background: #ff0000;
+  transform: translateY(-10px);
+}
+.icon a img {
+  transform: scale(0.5);
+  filter: invert(1);
+}
+
+.boxImg {
+  position: absolute;
+  right: 0px;
+  bottom: -40px;
+}
+
+.boxImg img {
+  width: 135px;
+}
+
+.boxImg .img1 {
+  transform: rotate(-15deg);
+}
+
+.boxImg .img2 {
+  transform: rotate(5deg);
+}
+
+.boxImg .img3 {
+  transform: rotate(15deg);
+}
+
+.boxImg .img4 {
+  transform: rotate(-15deg);
+}
